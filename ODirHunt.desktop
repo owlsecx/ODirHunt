@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ODirHunt
+Comment=Web Inventory Crawler & Recon Suite
+Exec=x-terminal-emulator -e bash -c "sudo /usr/bin/ODirHunt; exec bash"
+Icon=/usr/share/icons/Owl.png
+Terminal=false
+Categories=ORecon;
+StartupNotify=true
