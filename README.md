@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Multi-threaded web crawler — endpoint discovery,
+ODirHunt is a multi-threaded web inventory crawler for authorised endpoint discovery. It maps links, hunts JavaScript assets, surfaces interesting parameters, and looks for secret-like patterns so application defenders can chart attack surface on systems they own or have permission to test.
 
 ---
 
 ## ✨ Features
 
-- Web Inventory Crawler — endpoints, JS hunt, secrets, param mining & SSRF guard
+- Multi-threaded crawl for endpoint and path inventory
+- JavaScript asset discovery and parameter mapping
+- Secret-like pattern hunting within crawled content
+- Structured findings suitable for web app assessments
+- Interactive and CLI-oriented operation for lab use
+- Defensive reconnaissance framing for authorised targets only
 
 ---
 
@@ -39,6 +44,7 @@ Multi-threaded web crawler — endpoint discovery,
 
 ```bash
 ./ODirHunt
+./ODirHunt --help
 ```
 
 ---
